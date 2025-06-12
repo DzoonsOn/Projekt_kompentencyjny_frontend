@@ -1,0 +1,74 @@
+.header {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border-bottom: 0.15rem solid #C7CAD1;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 20px;
+    color: rgb(90, 88, 88);
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .title {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0rem 0;
+    display: inline-block;
+    margin-bottom: 0.2rem;
+    text-decoration: underline;
+    text-decoration-color: #C7CAD1;
+    text-decoration-thickness: 0.1rem;
+    color: rgb(90, 88, 88);
+  }
+
+  .button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 0 solid white;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    min-height: 60px;
+    position: relative;
+    color: rgb(90, 88, 88);
+  }
+  
+ 
+  .redSquareStyle {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: #C3002D;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .redDivStyle {
+    background-color: #C3002D;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 16px;
+    font-size: 0.6rem;
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 0;
+  }
