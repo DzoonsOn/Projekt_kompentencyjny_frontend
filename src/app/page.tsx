@@ -1,5 +1,7 @@
-const Home = () => {
-	return <main className='text-black font-medium'>Strona główna</main>
-}
+import MainPage from "./components/MainPage";
 
-export default Home
+const Home = () => {
+  return <MainPage />;
+};
+
+export default Home;
