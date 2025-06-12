@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import "../components/style/Categories.css";
+import "../../components/style/Categories.css";
 
 export default function Categories() {
   const router = useRouter();
@@ -12,7 +12,6 @@ export default function Categories() {
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
       <h1 className="header">
-        <div>STS</div>
         <div className="redDivStyle">Kamery</div>
       </h1>
 
