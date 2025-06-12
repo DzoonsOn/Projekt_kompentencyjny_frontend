@@ -4,7 +4,7 @@ import CameraSvg from "../components/assets/CameraSvg";
 import ClipboardSvg from "../components/assets/ClipboardSvg";
 import PiSvg from "../components/assets/PiSvg";
 import WarehouseSvg from "../components/assets/WarehouseSvg";
-import "../globals.css";
+import "../app/globals.css";
 
 const Elements = [
   {
