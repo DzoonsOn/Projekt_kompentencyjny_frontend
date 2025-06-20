@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
+import { ArrowLeft } from 'lucide-react'
 
 // === TYPES ===
 type ProductShortage = {
@@ -116,6 +117,14 @@ const ProductShortagePage = () => {
 
 	return (
 		<div className='p-6 max-w-[1440px] mx-auto'>
+			<div className='flex items-center mb-6'>
+				<button
+					onClick={() => router.push(`/categories`)}
+					className='text-gray-600 hover:text-gray-800 transition flex items-center space-x-2'>
+					<ArrowLeft />
+					<span>Powrót do kategorii</span>
+				</button>
+			</div>
 			<h1 className='text-4xl font-bold mb-6 text-gray-800'>Braki produktowe</h1>
 
 			<div className='mb-6'>
